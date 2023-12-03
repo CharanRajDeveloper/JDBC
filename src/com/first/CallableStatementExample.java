@@ -8,7 +8,6 @@ import java.sql.SQLException;
 
 public class CallableStatementExample {
 	public static void main(String[] args) throws ClassNotFoundException, SQLException {
-		//Callable Statement Example
 		Class.forName("com.mysql.jdbc.Driver");
 		Connection con = DriverManager.getConnection("jdbc:mysql://localhost:3306/sql_invoicing?useSSL=false", "root",
 				"");
